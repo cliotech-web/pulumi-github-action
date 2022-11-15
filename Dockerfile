@@ -1,4 +1,4 @@
-ARG PULUMI_VERSION=v3.15.10
+ARG PULUMI_VERSION=v3.37.2
 FROM pulumi/actions:${PULUMI_VERSION}
 
 LABEL "com.github.actions.name"="Pulumi Stack"
